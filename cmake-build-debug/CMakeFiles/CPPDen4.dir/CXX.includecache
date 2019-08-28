@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/storm/CLionProjects/CPPDen4/book.h
+iostream
+-
+string
+-
+
+/home/storm/CLionProjects/CPPDen4/bookstore.h
+map
+-
+string
+-
+book.h
+/home/storm/CLionProjects/CPPDen4/book.h
+client.h
+/home/storm/CLionProjects/CPPDen4/client.h
+
+/home/storm/CLionProjects/CPPDen4/client.h
+string
+-
+
+/home/storm/CLionProjects/CPPDen4/main.cpp
+iostream
+-
+bookstore.h
+/home/storm/CLionProjects/CPPDen4/bookstore.h
+book.h
+/home/storm/CLionProjects/CPPDen4/book.h
+client.h
+/home/storm/CLionProjects/CPPDen4/client.h
+
